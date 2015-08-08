@@ -47,7 +47,7 @@
             load_data();
         });
 
-        var options = {url_geoson: "data/ghana_clean.json"};
+        var options = {url_geoson: "data/ghana.min.json"};
         map = $("#map").mapcolorizer(options).data("mapcolorizer");
         map.init(function() {
 
